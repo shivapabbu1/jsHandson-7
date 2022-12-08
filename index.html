@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>JS HANDSON 7 <br>
+       OBJECTS</header>
+
+       <div class="box"> 1.create a function ? <br>
+    <pre> function Check(obj1) {
+        delete obj1.rollno
+                return obj1
+    }
+    
+    </pre> </div>
+       <div class="box">  2. delete a property ? <br> 
+    <pre> function Check(obj1) {
+        delete obj1.rollno
+                return obj1
+    }
+    
+    </pre></div>
+       <div class="box"> 3.Check whether the Package is Dream Package or not ? <br> 
+    <pre>function Check(obj1) {
+        return obj1.salary>500000?"Dream":"NotDream" 
+     }
+     </pre> </div>
+       <div class="box">4.Check whether the Object has a parameter or not ? <br> 
+    <pre>function Check(obj1) {
+    
+        let count = 0
+        for(let i in obj1){
+          count += 1
+        }
+        
+        return count===0?"false":"true"
+        }
+
+
+</pre> </div>
+       <div class="box"> 5. merge the objects ? <br> 
+    <pre>function Check(obj1,obj2) {
+        const obj = {}
+        for(let i in obj1){
+         obj[i] = obj1[i]
+        }
+                
+         for(let j in obj2){
+           obj[j] = obj2[j]
+        }
+                 return obj
+    }
+    
+    </pre></div>
+       <div class="box">6.object multiplayer ? <br> 
+    <pre>function Check(a,obj1) {
+        obj1.id *= a
+                    obj1.houseno *= a
+                    return obj1
+        }
+        </pre> </div>
+       <div class="box"> 7. find the sum of objcet of numbers ? <br> 
+    <pre>function Check(obj1) {
+        return obj1.p1+obj1.p2+obj1.p3
+   }
+   </pre> </div>
+   <div class="box"> 8.Check whether the Objects are same or not. ? <br> 
+<pre>function check(obj1,a,b) {
+    return obj1.name===a && obj1.id===b
+    }</pre></div>
+</body>
+</html>

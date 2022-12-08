@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lemonchiffon;
+}
+header{
+    text-align: center;
+    font-size: xx-large;
+    font-family: monospace;
+    color: black;
+}
+.box{
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: springgreen;
+    font-family: cursive;
+
+}
+.box:hover{
+    background-color: gray;
+    transform: translateX(28x);
+    transform-origin: right;
+
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+
+}
